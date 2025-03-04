@@ -25,7 +25,6 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
   spec = {
 	{ "ellisonleao/gruvbox.nvim", priority = 1000 , config = function() vim.cmd.colorscheme "gruvbox" end },
-    -- import your plugins
-    -- { import = "plugins" },
+    { import = "plugins" },
   },
 })
